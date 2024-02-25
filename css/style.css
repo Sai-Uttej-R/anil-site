@@ -8,6 +8,14 @@ body {
   overflow-x: hidden;
 }
 
+#vaibhav{
+  font-size: 3vh;
+  font-family: 'Copperplate', sans-serif;
+  font-weight: bold;
+  -webkit-text-stroke-width: 0.08vh;
+  -webkit-text-stroke-color: black;
+}
+
 .layout_padding {
   padding: 90px 0;
 }
