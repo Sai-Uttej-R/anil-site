@@ -16,6 +16,17 @@ body {
   -webkit-text-stroke-color: rgb(221, 220, 220);
 }
 
+.googleform-container {
+  max-width: 640px; /* Adjust as needed */
+  margin: 0 auto; /* Center the container */
+}
+
+/* Style the iframe */
+.styled-iframe {
+  width: 100%;
+  border: none; /* Remove default iframe border */
+}
+
 .layout_padding {
   padding: 90px 0;
 }
