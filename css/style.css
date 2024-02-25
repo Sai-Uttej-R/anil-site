@@ -13,7 +13,7 @@ body {
   font-family: 'Copperplate', sans-serif;
   font-weight: bold;
   -webkit-text-stroke-width: 0.08vh;
-  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-color: rgb(221, 220, 220);
 }
 
 .layout_padding {
