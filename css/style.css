@@ -8,25 +8,6 @@ body {
   overflow-x: hidden;
 }
 
-#vaibhav{
-  font-size: 3vh;
-  font-family: 'Copperplate', sans-serif;
-  font-weight: bold;
-  -webkit-text-stroke-width: 0.08vh;
-  -webkit-text-stroke-color: rgb(221, 220, 220);
-}
-
-.googleform-container {
-  max-width: 640px; /* Adjust as needed */
-  margin: 0 auto; /* Center the container */
-}
-
-/* Style the iframe */
-.styled-iframe {
-  width: 100%;
-  border: none; /* Remove default iframe border */
-}
-
 .layout_padding {
   padding: 90px 0;
 }
@@ -397,16 +378,15 @@ a:focus {
       -ms-flex-align: center;
           align-items: center;
   padding: 15px 30px;
-  height: 300px;
+  height: 245px;
 }
 
 .shop_section .box .img-box img {
   max-width: 100%;
-  max-height: 265px;
+  max-height: 145px;
 }
 
 .shop_section .box .detail-box {
-  padding: 10px 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -417,10 +397,6 @@ a:focus {
 
 .shop_section .box .detail-box h6 span {
   color: #fd9c6b;
-}
-
-.shop_section .box .detail-box h6 {
-  color: #ac430f;
 }
 
 .shop_section .box .new {
