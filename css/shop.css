@@ -158,6 +158,35 @@
 
 
 
+#back-to-top-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+}
+
+#back-to-top-btn a {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  #back-to-top-btn {
+    bottom: 10px;
+    right: 10px;
+  }
+
+  #back-to-top-btn a {
+    padding: 8px 16px;
+  }
+}
+
+
+
 
 
 
