@@ -129,8 +129,7 @@
   padding: 20px;
   background-color: #fefefe;
   position: relative;
-  width: 80%;
-  height: 80%; /* Could be more or less, depending on image aspect ratio */
+  width: 80%; /* Could be more or less, depending on image aspect ratio */
   max-width: 500px; /* Limit maximum width */
 }
 
