@@ -15,7 +15,6 @@ body {
   }
   100% {
     transform: translateY(0);
-    opacity: 1;
   }
 }
 
@@ -23,8 +22,14 @@ body {
   font-weight: 700;
   font-size: 4vh;
   animation: fadeInUp 1s ease-in-out;
-  opacity: 0;
+}
 
+#vaibhav2{
+  animation: fadeInUp 1s ease-in-out;
+}
+
+#vaibhav3{
+  animation: fadeInUp 1s ease-in-out;
 }
 
 .layout_padding {
@@ -339,6 +344,7 @@ a:focus {
   display: inline-block;
   padding: 10px 45px;
   background-color: transparent;
+  animation: fadeInUp 1s ease-in-out;
   color: #fd9c6b;
   border-radius: 5px;
   border: 1px solid #fd9c6b;
