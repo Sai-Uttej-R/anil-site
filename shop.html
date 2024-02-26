@@ -67,7 +67,7 @@
     <div class="cs-container">
       <ul class="cs-card-group">
 
-        
+
 
         <li class="cs-item">
           <a class="cs-link" onclick="openModal('./images/ogsaree1.png', 'Product-1')">
@@ -100,6 +100,7 @@
             </picture>
             <h3 class="cs-h3">Amazing Kanchi Silk Saree</h3>
           </a>
+
         </li>
         <li class="cs-item">
           <a class="cs-link" onclick="openModal('./images/ogsaree3.png', 'Product-1')">
@@ -403,7 +404,7 @@
   <div id="back-to-top-btn">
     <a href="#top" style="font-weight: bold;">Back to Top</a>
   </div>
-  
+
 
 
   <br>
@@ -415,10 +416,7 @@
         <div class="col-md-8 col-lg-9">
           <div class="info_form">
             <form action="">
-              <input type="email" placeholder="Enter your email">
-              <button>
-                <i class="fa fa-arrow-right" aria-hidden="true"></i>
-              </button>
+
             </form>
           </div>
         </div>
@@ -550,34 +548,34 @@
     }
   </script>
   <script>
-    window.addEventListener("DOMContentLoaded", function() {
-  var halfOfPage = window.innerHeight / 2;
-  var backToTopBtn = document.getElementById("back-to-top-btn");
-  var scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+    window.addEventListener("DOMContentLoaded", function () {
+      var halfOfPage = window.innerHeight / 2;
+      var backToTopBtn = document.getElementById("back-to-top-btn");
+      var scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
 
-  if (scrollPosition > halfOfPage) {
-    backToTopBtn.style.display = "block";
-  } else {
-    backToTopBtn.style.display = "none";
-  }
-});
+      if (scrollPosition > halfOfPage) {
+        backToTopBtn.style.display = "block";
+      } else {
+        backToTopBtn.style.display = "none";
+      }
+    });
 
-window.addEventListener("scroll", function() {
-  var scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
-  var halfOfPage = window.innerHeight / 2;
-  var backToTopBtn = document.getElementById("back-to-top-btn");
+    window.addEventListener("scroll", function () {
+      var scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+      var halfOfPage = window.innerHeight / 2;
+      var backToTopBtn = document.getElementById("back-to-top-btn");
 
-  if (scrollPosition > halfOfPage) {
-    backToTopBtn.style.display = "block";
-  } else {
-    backToTopBtn.style.display = "none";
-  }
-});
+      if (scrollPosition > halfOfPage) {
+        backToTopBtn.style.display = "block";
+      } else {
+        backToTopBtn.style.display = "none";
+      }
+    });
 
-document.getElementById("back-to-top-btn").addEventListener("click", function(event) {
-  event.preventDefault();
-  document.querySelector("html").scrollTop = 0;
-});
+    document.getElementById("back-to-top-btn").addEventListener("click", function (event) {
+      event.preventDefault();
+      document.querySelector("html").scrollTop = 0;
+    });
   </script>
 
 
